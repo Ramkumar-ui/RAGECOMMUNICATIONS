@@ -41,19 +41,19 @@
     <section class="grid-container h-78">
         <div class="gallery-container w-2 h-2">
             <div class="gallery-item">
-                <div class="image"> <img src="images/the-drones.jpg" alt="the-drones" /></div>
+                <div class="image" id="image-1"> <img src="images/the-drones.jpg" alt="the-drones" /></div>
                 <div class="gallery-item__text">
                     <h3 class="gallery-title">the drones</h3>
                     <p class="gallery-date">27 april</p>
-                    <p class="gallery-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-                        dignissimos.</p>
+                    <p class="gallery-text">Celebrating the music of one of the world's greatest living comprosers. Arvo
+                        Part.</p>
                     <input type="button" class="btn-search" value="info & buy tickets">
                 </div>
             </div>
         </div>
         <div class="gallery-container w-1 h-1">
             <div class="gallery-item">
-                <div class="image"><img src="images/joan-baez.jpg" alt="joan-baez" /></div>
+                <div class="image" id="image-2"><img src="images/joan-baez.jpg" alt="joan-baez" /></div>
                 <div class="gallery-item__text">
                     <h3 class="gallery-title">joan baez</h3>
                     <p class="gallery-date">02 may - 03may</p>
@@ -62,7 +62,7 @@
         </div>
         <div class="gallery-container w-1 h-1">
             <div class="gallery-item">
-                <div class="image"> <img src="images/vivid-live.jpg" alt="vivid-live" /></div>
+                <div class="image"><img src="images/vivid-live.jpg" alt="vivid-live" /></div>
                 <div class="gallery-item__text">
                     <h3 class="gallery-title">vivid live</h3>
                     <p class="gallery-date">24 may - 02 june</p>
@@ -131,43 +131,77 @@
         </div>
     </section>
     <div class="main container">
-        <section id="section2" class="h-100">
-            <div class="content-left w-1 h-1">
-                <h2>Where You Want to Go</h2>
-                <h3>Learn How to Add a Bouncy Scroll Down Anchor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
-                <br />
-                <p><a class="btn-search" href="#" role="button">Learn more</a></p>
-            </div>
-            <div class="content-right w-1 h-1">
-                <img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80"
-                    alt="" />
+        <section id="section2">
+            <div class="content-left f-left">
+                <h2>Our Events</h2>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/the-drones.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>the drones</h3>
+                        <p><span class="date">27 april</span></p>
+                        <p>Celebrating the music of one of the world's greatest living comprosers. Arvo Part.</p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/joan-baez.jpg" alt="" /></div>
+                    <div class="card-text  f-left">
+                        <h3>joan baez</h3>
+                        <p><span class="date">02 may - 03may</span></p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/vivid-live.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>vivid live</h3>
+                        <p><span class="date">24 may - 02 june</span></p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/the-listies.jpg" alt="" /></div>
+                    <div class="card-text  f-left">
+                        <h3>the listies</h3>
+                        <p><span class="date">25 april - 28 april</span></p>
+                    </div>
+                </div>
+                <div class="card  f-left">
+                    <div class="card-image f-left"><img src="images/don-quixote.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>don quixote</h3>
+                        <p><span class="date">04 april - 28 april</span></p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/yuri-bashmet.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>yuri bashmet</h3>
+                        <p><span class="date">18 may</span></p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/all-about-women.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>all about women</h3>
+                        <p><span class="date">02 may - 03 may</span></p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/royal-concertgebouw.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>royal concertgebouw</h3>
+                        <p><span class="date">25 april - 28 april</span></p>
+                    </div>
+                </div>
+                <div class="card f-left">
+                    <div class="card-image f-left"><img src="images/thumbnail01.jpg" alt="" /></div>
+                    <div class="card-text f-left">
+                        <h3>People Day</h3>
+                        <p><span class="date">25 april - 28 april</span></p>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
+    <div class="clearfix"></div>
     <footer>
         <div class="container">
             <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved</p>
