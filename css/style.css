@@ -286,7 +286,6 @@ header {
 .card {
     width: 72%;
     background-color: #fff;
-    Flex-direction: column;
     padding: 1rem;
     margin: 1rem;
     float: left;
@@ -335,6 +334,25 @@ header {
     background-color: var(--btn-color);
 }
 
+@media (max-width: 991px) {
+
+    .gallery-item .gallery-item__text{
+        width: 80%;
+    }
+    .gallery-item__text h3 {
+        font-size: 14px;
+    }
+    .more-event {
+        width: 16%;
+    }
+    .card {
+        width: 100%;
+        margin: 10px auto
+    }
+    .main .card-text {
+        width: 70%;
+    }
+}
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 2fr);
